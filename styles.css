@@ -1,0 +1,12 @@
+.header{
+    background-color: rgb(255, 190, 69); 
+    width: 100vw;
+    height: 40vh;
+}
+
+.cuadrado1{
+    background-color: rgb(255, 179, 39);
+    width: 100px;
+    height: 100px;
+    
+}
