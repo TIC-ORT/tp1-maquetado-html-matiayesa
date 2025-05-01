@@ -69,3 +69,14 @@
     background: #ffd87a;
     border-top: 10px solid #fccc4c;
   }
+
+  .pie{
+    background: grey;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .columna{
+    width: 50px ;
+
+  }
