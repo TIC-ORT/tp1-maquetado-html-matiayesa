@@ -37,3 +37,35 @@
     margin: 5px 0;
     width: 100%;
 }
+
+.cuadrados {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .cajas {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 200px;
+  }
+  
+  .azul, .roja, .amarilla {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .azul {
+    background: #b6e8ee;
+    border-top: 10px solid #94dce4;
+  }
+  
+  .roja {
+    background: #ffa68c;
+    border-top: 10px solid #f47f61;
+  }
+  
+  .amarilla {
+    background: #ffd87a;
+    border-top: 10px solid #fccc4c;
+  }
