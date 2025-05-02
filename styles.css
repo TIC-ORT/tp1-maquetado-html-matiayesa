@@ -6,7 +6,7 @@
 
 
 .header{
-    background-color: rgb(255, 190, 69); 
+    background-color: rgb(255, 195, 84); 
     width: 100vw;
     height: 25vh;
     display: flex;
@@ -15,7 +15,7 @@
 .imagen{
     width: 150px;
     height: 150px;
-    background: orange;
+    background: rgb(255, 178, 35);
     margin-right: 20px;
     margin-left: 200px;
     margin-top: 50px;
@@ -25,7 +25,7 @@
 .titulo{
     height: 23px;
     width: 600px;
-    background: orange;
+    background: rgb(255, 178, 34);
     margin-bottom: 10px;
     margin-top: 55px;
 
@@ -34,14 +34,22 @@
 .linea{
     height: 11px;
     background: white;
-    margin: 5px 0;
+    margin: 20px 0;
     width: 100%;
+}
+
+.lineacorta{
+  height: 11px;
+  background: white;
+  margin: 20px 0;
+  width: 70%;
 }
 
 .cuadrados {
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    padding: 10px 0;
   }
   
   .cajas {
@@ -70,13 +78,41 @@
     border-top: 10px solid #fccc4c;
   }
 
-  .pie{
-    background: grey;
+  .footer {
+    background-color: rgb(194, 194, 194);
+    padding: 45px 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+  }
+  
+  .footer-contenido {
+    display: flex;
+    gap: 200px;
+  }
+  
+  .columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .barra {
+    height: 15px;
+    width: 250px;
+    background: #aaa;
+    margin-bottom: 10px;
+  }
+  
+  .texto-footer {
+    height: 7px;
+    width: 250px;
+    background: white;
+    margin: 7px 0;
   }
 
-  .columna{
-    width: 50px ;
-
+  .textochico-footer {
+    height: 7px;
+    width: 200px;
+    background: white;
+    margin: 7px 0;
   }
